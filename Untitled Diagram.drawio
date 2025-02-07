@@ -1,0 +1,194 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.11">
+  <diagram name="Page-1" id="0SMv0kkJjt2BiDikbaPy">
+    <mxGraphModel dx="24273" dy="10087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-12" value="&lt;font style=&quot;font-size: 100px;&quot;&gt;Session Hijacking&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2860" y="382.51" width="530" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-14" value="&lt;font style=&quot;font-size: 100px;&quot;&gt;Weak access control&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2120" y="-1490" width="830" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-16" value="&lt;font style=&quot;font-size: 100px;&quot;&gt;Default Credentials in Use&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2030" y="422.51" width="700" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-17" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BG2nzBlT6IyZX2NHGX6P-16" target="BG2nzBlT6IyZX2NHGX6P-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1590" y="490" as="sourcePoint" />
+            <mxPoint x="-1540" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-18" value="&lt;font style=&quot;font-size: 100px;&quot;&gt;No Multifactor Authentification&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1250" y="398.75" width="630" height="449.38" as="geometry" />
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-21" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BG2nzBlT6IyZX2NHGX6P-18" target="BG2nzBlT6IyZX2NHGX6P-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1590" y="490" as="sourcePoint" />
+            <mxPoint x="-1540" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-23" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 100px;&quot;&gt;&lt;br&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Disclosure of Patient Data&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2840" y="-3200" width="2140" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-27" value="&lt;font style=&quot;font-size: 100px;&quot;&gt;Insider Threats&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-1360" width="930" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-28" value="&lt;font style=&quot;font-size: 100px;&quot;&gt;Insider Modifies Data&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="274.38" width="710" height="671.25" as="geometry" />
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-29" value="&lt;font style=&quot;font-size: 100px;&quot;&gt;Unintentional Data Leak&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="266.57" width="695" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-30" value="&lt;font style=&quot;font-size: 100px;&quot;&gt;Disgruntled Employee Sells Data&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="335" width="850" height="585" as="geometry" />
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-31" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BG2nzBlT6IyZX2NHGX6P-30" target="BG2nzBlT6IyZX2NHGX6P-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-860" y="460" as="sourcePoint" />
+            <mxPoint x="-950" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-32" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BG2nzBlT6IyZX2NHGX6P-29" target="BG2nzBlT6IyZX2NHGX6P-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-860" y="460" as="sourcePoint" />
+            <mxPoint x="-930" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-37" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BG2nzBlT6IyZX2NHGX6P-28" target="BG2nzBlT6IyZX2NHGX6P-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-860" y="460" as="sourcePoint" />
+            <mxPoint x="-810" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-38" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BG2nzBlT6IyZX2NHGX6P-23" target="BG2nzBlT6IyZX2NHGX6P-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1560" y="190" as="sourcePoint" />
+            <mxPoint x="-930" y="285" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-39" value="&lt;font style=&quot;font-size: 72px;&quot;&gt;External Attacks&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3240" y="-1360" width="1460" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-40" value="&lt;font style=&quot;font-size: 100px;&quot;&gt;Man in the Middle Attack&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2710" y="411.25" width="830" height="409.38" as="geometry" />
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-41" value="&lt;font style=&quot;font-size: 100px;&quot;&gt;Brute Force Attack&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3890" y="315.32" width="720" height="498.75" as="geometry" />
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-42" value="&lt;font style=&quot;font-size: 100px;&quot;&gt;Phishing Emails&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4950" y="352.5" width="1180" height="468.13" as="geometry" />
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-43" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BG2nzBlT6IyZX2NHGX6P-40" target="BG2nzBlT6IyZX2NHGX6P-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-570" y="440" as="sourcePoint" />
+            <mxPoint x="-520" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-44" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BG2nzBlT6IyZX2NHGX6P-41" target="BG2nzBlT6IyZX2NHGX6P-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-570" y="440" as="sourcePoint" />
+            <mxPoint x="-330" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-45" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BG2nzBlT6IyZX2NHGX6P-42" target="BG2nzBlT6IyZX2NHGX6P-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-570" y="440" as="sourcePoint" />
+            <mxPoint x="-520" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-47" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BG2nzBlT6IyZX2NHGX6P-23" target="BG2nzBlT6IyZX2NHGX6P-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1536" y="180" as="sourcePoint" />
+            <mxPoint x="-285" y="279" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-48" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BG2nzBlT6IyZX2NHGX6P-14" target="BG2nzBlT6IyZX2NHGX6P-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1500" y="350" as="sourcePoint" />
+            <mxPoint x="-1450" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-49" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BG2nzBlT6IyZX2NHGX6P-12" target="BG2nzBlT6IyZX2NHGX6P-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1500" y="350" as="sourcePoint" />
+            <mxPoint x="-1450" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-50" value="&lt;font style=&quot;font-size: 100px;&quot;&gt;Malware Attacks&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-4850" y="-1560" width="1167.5" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-51" value="&lt;font style=&quot;font-size: 100px;&quot;&gt;Trojan Horse In the NHS Software&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5300" y="403.13" width="610" height="448.75" as="geometry" />
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-52" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BG2nzBlT6IyZX2NHGX6P-51" target="BG2nzBlT6IyZX2NHGX6P-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2120" y="420" as="sourcePoint" />
+            <mxPoint x="-2070" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-53" value="&lt;font style=&quot;font-size: 100px;&quot;&gt;Keyloggers Steal Credentials&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-4480" y="398.75" width="520" height="408.75" as="geometry" />
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-54" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BG2nzBlT6IyZX2NHGX6P-53" target="BG2nzBlT6IyZX2NHGX6P-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2100" y="400" as="sourcePoint" />
+            <mxPoint x="-2070" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-55" value="&lt;font style=&quot;font-size: 100px;&quot;&gt;Ransomware Locks Records&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3800" y="432.82" width="690" height="381.25" as="geometry" />
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-56" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BG2nzBlT6IyZX2NHGX6P-55" target="BG2nzBlT6IyZX2NHGX6P-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2120" y="420" as="sourcePoint" />
+            <mxPoint x="-2070" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-57" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BG2nzBlT6IyZX2NHGX6P-50" target="BG2nzBlT6IyZX2NHGX6P-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2120" y="420" as="sourcePoint" />
+            <mxPoint x="-2070" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-58" value="&lt;font style=&quot;font-size: 100px;&quot;&gt;Network &amp;amp; Database Exploits&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-7280" y="-1570" width="870" height="677.5" as="geometry" />
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-59" value="&lt;font style=&quot;font-size: 100px;&quot;&gt;Misconfigured Cloud Storage&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-8500" y="352.5" width="990" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-60" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BG2nzBlT6IyZX2NHGX6P-59" target="BG2nzBlT6IyZX2NHGX6P-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2640" y="400" as="sourcePoint" />
+            <mxPoint x="-2590" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-61" value="&lt;font style=&quot;font-size: 100px;&quot;&gt;Unencrypted Data in Transit&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-7200" y="335" width="570" height="422.5" as="geometry" />
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-62" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BG2nzBlT6IyZX2NHGX6P-61" target="BG2nzBlT6IyZX2NHGX6P-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2640" y="400" as="sourcePoint" />
+            <mxPoint x="-2590" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-63" value="&lt;font style=&quot;font-size: 100px;&quot;&gt;SQL Injection Attack&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-6390" y="310" width="630" height="405" as="geometry" />
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-64" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BG2nzBlT6IyZX2NHGX6P-63" target="BG2nzBlT6IyZX2NHGX6P-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2640" y="400" as="sourcePoint" />
+            <mxPoint x="-2590" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BG2nzBlT6IyZX2NHGX6P-65" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BG2nzBlT6IyZX2NHGX6P-58" target="BG2nzBlT6IyZX2NHGX6P-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2160" y="300" as="sourcePoint" />
+            <mxPoint x="-2110" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
